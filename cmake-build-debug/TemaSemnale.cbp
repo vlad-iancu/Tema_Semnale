@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TemaSemnale"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/iancu/Desktop/TemaSemnale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/iancu/Desktop/TemaSemnale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/iancu/Desktop/TemaSemnale/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemaSemnale">
+				<Option output="/home/iancu/Desktop/TemaSemnale/cmake-build-debug/TemaSemnale" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/iancu/Desktop/TemaSemnale/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemaSemnale"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemaSemnale/fast">
+				<Option output="/home/iancu/Desktop/TemaSemnale/cmake-build-debug/TemaSemnale" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/iancu/Desktop/TemaSemnale/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemaSemnale/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/iancu/Desktop/TemaSemnale/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/MLP.cpp">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/MLP.h">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/Matrix.cpp">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/Matrix.h">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/activation_function.h">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/exceptions.cpp">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/exceptions.h">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/main.cpp">
+			<Option target="TemaSemnale"/>
+		</Unit>
+		<Unit filename="/home/iancu/Desktop/TemaSemnale/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

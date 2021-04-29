@@ -1,0 +1,1 @@
+/home/linuxbrew/.linuxbrew/bin/c++  -g   CMakeFiles/TemaSemnale.dir/main.cpp.o CMakeFiles/TemaSemnale.dir/Matrix.cpp.o CMakeFiles/TemaSemnale.dir/exceptions.cpp.o CMakeFiles/TemaSemnale.dir/MLP.cpp.o  -o TemaSemnale 
