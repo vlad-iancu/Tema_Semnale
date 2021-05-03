@@ -5,12 +5,13 @@
 //
 #include <string>
 #include <sstream>
+
 MatrixMultiplicationException::MatrixMultiplicationException(int N1, int M1, int N2, int M2) {
     n1 = N1; m1 = M1; n2 = N2; m2 = M2;
 }
 std::string MatrixMultiplicationException::what() {
     std::stringstream err;
-    err << "Cannot multiply matrix of sizes (" << n1 << "," << m1 << ") and (" << n2 << "," << m2 << ")";
+    err << "Cannot multiply matrices of sizes (" << n1 << "," << m1 << ") and (" << n2 << "," << m2 << ")";
     return err.str();
 }
 

@@ -6,7 +6,7 @@
 #define TEMASEMNALE_MATRIX_H
 
 #include "activation_function.h"
-
+#include <vector>
 class Matrix {
 private:
     int x_size;

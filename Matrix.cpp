@@ -20,6 +20,7 @@ Matrix::Matrix(const double *elements, int n, int m) : Matrix(n, m) {
             a[i][j] = elements[i * m + j];
 }
 
+
 Matrix::Matrix(const Matrix &mat) : Matrix(mat.x_size, mat.y_size) {
     for (int i = 0; i < x_size; i++)
         for (int j = 0; j < y_size; j++)

@@ -1,3 +1,0 @@
-/home/iancu/Desktop/TemaSemnale/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/iancu/Desktop/TemaSemnale/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/iancu/Desktop/TemaSemnale/cmake-build-debug/CMakeFiles/TemaSemnale.dir

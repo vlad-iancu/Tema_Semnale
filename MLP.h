@@ -32,8 +32,6 @@ public:
 
     double *predict(double *input);
 
-    int hidden_layers() const;
-
     int input_size() const;
 
     int output_size() const;
