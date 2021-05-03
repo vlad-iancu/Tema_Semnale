@@ -32,7 +32,11 @@ Matrix::~Matrix() {
         delete a[i];
     delete[] a;
 }
-
+/**
+ * Multiplies two matrices
+ * @param matrix
+ * @return a dynamically allocated matrix representing the result of the multiplication
+ */
 Matrix *Matrix::multiply(Matrix *matrix) const {
     Matrix mat = *matrix;
     if (y_size != mat.x_size) throw MatrixMultiplicationException(x_size, y_size, mat.x_size, mat.y_size);
@@ -47,7 +51,10 @@ Matrix *Matrix::multiply(Matrix *matrix) const {
         }
     return result;
 }
-
+/**
+ * Applies a specified numeric function to all the elements in the matrix
+ * @param f
+ */
 void Matrix::transform(activation_function f) {
     for (int i = 0; i < x_size; i++)
         for (int j = 0; j < y_size; j++)

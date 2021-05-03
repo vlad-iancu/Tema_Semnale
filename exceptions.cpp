@@ -18,6 +18,6 @@ std::string MatrixMultiplicationException::what() {
 
 std::string InvalidLayersException::what() {
     std::stringstream err;
-    err << "The layers of a MLP must have a strictly-positive integer number of neurons";
+    err << "The layers of a MLP must have a strictly-positive integer number of neurons and must be at least two of them";
     return err.str();
 }
